@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        none
+        [none]
     }
     environment {
         CI = 'true'
